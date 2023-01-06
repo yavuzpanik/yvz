@@ -1,0 +1,168 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+:root {
+    --font-style: 'Nunito Sans', sans-serif;
+}
+
+
+body {
+    background: #f9f9f9;
+    color: #787b80;
+    cursor: auto;
+    font-family: Peugeot,sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+body {
+    font-family: var(--font-style);
+    background-color: #000000;
+}
+.navbar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    font-family: var(--font-style);
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    box-shadow: 0 4px 8px 0 #ff0000, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+    .navbar .anasayfa {
+        font-family: var(--font-style);
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        float: left;
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        box-shadow: 0 4px 8px 0 #ff0000, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+        .navbar .anasayfa a {
+            font-family: var(--font-style);
+            align-items: center;
+            justify-content: space-between;
+            display: flex;
+            float: left;
+            font-size: 18px;
+            color: white;
+            text-align: center;
+            padding: 17px 30px;
+            text-decoration: none;
+            box-shadow: 0 4px 8px 0 #ff0000, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+ 
+
+    .navbar a {
+        font-family: var(--font-style);
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 18px 30px;
+        text-decoration: none;
+        box-shadow: 0 4px 8px 0 #ff0000, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 #c90075, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+    .dropdown .dropbtn {
+        font-size: 16.5px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 19px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+        box-shadow: 0 4px 8px 0 #ff00bf, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+
+    .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: rgb(255, 0, 106);
+        font-family: var(--font-style);
+    }
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: 0 4px 8px 0 #ff00f2, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+}
+
+
+    .dropdown-content a {
+        font-family: var(--font-style);
+        float: none;
+        color: rgb(255, 255, 255);
+        padding: 14px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        box-shadow: 0 4px 8px 0 #d800c6, 0 6px 20px 0 rgba(255, 0, 128, 0.19);
+    }
+
+
+        .dropdown-content a:hover {
+            font-family: var(--font-style);
+            background-color: rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 #ff006a, 0 6px 20px 0 rgba(255, 0, 157, 0.19);
+        }
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.içerik {
+    margin: 10px;
+    margin-top: 20px; 
+}
+.konum {
+    float: right;
+
+}
+.yazı {
+    margin: 0; 
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+.resimKapsayici {
+    
+    position: relative;
+}
+
+.resimYazisi {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: black;
+    font-family: 'Modern No. 20';
+    font-size: 15px;
+}
+
+
+
+
